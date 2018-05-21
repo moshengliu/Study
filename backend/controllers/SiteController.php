@@ -60,8 +60,16 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        return $this->render('index');
+    }
 
-        //我是我
+    /**
+     * Displays homepage.
+     *
+     * @return string
+     */
+    public function actionIndexIn()
+    {
         return $this->render('index');
     }
 
