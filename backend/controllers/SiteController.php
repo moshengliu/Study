@@ -74,6 +74,7 @@ class SiteController extends Controller
 //        woshosoajsjoji
 //        dfhksdjf
         //13132
+        //我是你
         return $this->render('index');
     }
 
